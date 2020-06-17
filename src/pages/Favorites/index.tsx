@@ -35,7 +35,7 @@ const Favorites: React.FC = () => {
       // Load favorite foods from api
       const response = await api.get('/favorites');
 
-      const data = response.data.map(food => ({
+      const data = response.data.map((food: Food) => ({
         ...food,
         formattedPrice: formatValue(food.price),
       }));

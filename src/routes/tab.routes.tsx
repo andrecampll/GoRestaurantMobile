@@ -20,6 +20,7 @@ const TabRoutes: React.FC = () => (
         fontWeight: '600',
       },
       inactiveTintColor: '#B7B7CC',
+      tabStyle: { backgroundColor: '#222' },
     }}
   >
     <Tab.Screen
