@@ -221,7 +221,7 @@ const FoodDetails: React.FC = () => {
               <AdittionalQuantity>
                 <Icon
                   size={15}
-                  color="#6C6C80"
+                  color="#f22"
                   name="minus"
                   onPress={() => handleDecrementExtra(extra.id)}
                   testID={`decrement-extra-${extra.id}`}
@@ -231,7 +231,7 @@ const FoodDetails: React.FC = () => {
                 </AdittionalItemText>
                 <Icon
                   size={15}
-                  color="#6C6C80"
+                  color="#39b100"
                   name="plus"
                   onPress={() => handleIncrementExtra(extra.id)}
                   testID={`increment-extra-${extra.id}`}
@@ -247,7 +247,7 @@ const FoodDetails: React.FC = () => {
             <QuantityContainer>
               <Icon
                 size={15}
-                color="#6C6C80"
+                color="#f22"
                 name="minus"
                 onPress={handleDecrementFood}
                 testID="decrement-food"
@@ -257,7 +257,7 @@ const FoodDetails: React.FC = () => {
               </AdittionalItemText>
               <Icon
                 size={15}
-                color="#6C6C80"
+                color="#39b100"
                 name="plus"
                 onPress={handleIncrementFood}
                 testID="increment-food"
